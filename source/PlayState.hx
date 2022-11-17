@@ -1,8 +1,11 @@
 package;
 
+import flixel.FlxG;
 import flixel.text.FlxText;
 import flixel.FlxState;
 import flixel.input.FlxInput;
+import sys.io.File;
+import sys.FileSystem;
 
 class PlayState extends FlxState
 {
@@ -17,11 +20,18 @@ class PlayState extends FlxState
 		if (FlxText = "Cow") { pressie(); }
 	}
 	
+	public static function browserLoad(site:String) {
+		FlxG.openURL(site);
+	}
+	
 	public function pressie():Void
 	{
 	    if(press = true) {
 			remove(FlxText);
-			add(New FlxText("Now displaying results for cow. Happy Meat Farms - The meat that will make you happy", 32).screenCenter());
+		        add(new FlxText("Taking you to the very first search result retrieved.", 32).screenCenter());
+		       // site = "https://www.happymeatfarms.com"
+			browserLoad("https://www.happymeatfarms.com");
+			//add(New FlxText("Now displaying results for cow. Happy Meat Farms - The meat that will make you happy", 32).screenCenter());
 	    }
 	}
 
