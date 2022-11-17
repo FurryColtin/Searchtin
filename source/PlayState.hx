@@ -4,12 +4,12 @@ import flixel.FlxG;
 import flixel.text.FlxText;
 import flixel.FlxState;
 import flixel.input.FlxInput;
-import sys.FileSystem;
 
 class PlayState extends FlxState
 {
 	var last:FlxInputState = W;
 	var press:Bool = false;
+        var pressarg:Bool = false;
 	override public function create()
 	{
 		super.create();
