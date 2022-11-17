@@ -1,0 +1,7 @@
+DisplayText = "Now Displaying results for Cow...."
+SearchResult1 = "Happy Meat Farms - Home"
+SearchResult1BottomText = "Where animals are happy."
+SearchResult1URL = "https://www.happymeatfarms.com"
+SearchResult2 = "Cattle - Wikipedia"
+SearchResult2BottomText = "Cattle (Bos taurus) are large, domesticated, cloven-hooved, herbivores. They are a prominent modern member of the subfamily Bovinae and the most widespread ..."
+SearchResult2URL = "https://en.wikipedia.org/wiki/Cattle"
