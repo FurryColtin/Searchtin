@@ -4,7 +4,6 @@ import flixel.FlxG;
 import flixel.text.FlxText;
 import flixel.FlxState;
 import flixel.input.FlxInput;
-import sys.io.File;
 import sys.FileSystem;
 
 class PlayState extends FlxState
