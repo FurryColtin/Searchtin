@@ -13,13 +13,14 @@ class PlayState extends FlxState
 		add(new FlxText("Welcome to searchtin! The go to search engine for surfing the world wide web! Please select one of the following options to browse:", 32).screenCenter());
 		add(new FlxText("Arg", 32, -14).screenCenter());
 		add(new FlxText("Cow", 32, -14, -14).screenCenter());
-		public function press():Void
-		{
-			If(last:FlxInputState = C) {
-				remove(FlxText);
-				add(New FlxText("Now displaying results for cow. Happy Meat Farms - The meat that will make you happy", 32).screenCenter());
-			}
-		}
+	}
+	
+	public function press():Void
+	{
+	    if(last:FlxInputState = C) {
+			remove(FlxText);
+			add(New FlxText("Now displaying results for cow. Happy Meat Farms - The meat that will make you happy", 32).screenCenter());
+	    }
 	}
 
 	override public function update(elapsed:Float)
