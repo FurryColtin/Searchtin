@@ -23,11 +23,13 @@ class PlayState extends FlxState
 	public function pressie():Void
 	{
 	    press = true;
+	    //if (FlxText = "Cows") { press = true; }
 	    if(press = true) {
 			//remove(FlxText);
 		        //add(new FlxText("Taking you to the very first search result retrieved.", 32).screenCenter());
 		       // site = "https://www.happymeatfarms.com"
-			browserLoad("https://www.happymeatfarms.com");
+			browserLoad("https://www.happymeatfarms.com"); //WAIT
+		        trace("First Search Result Recieved!");
 			//add(New FlxText("Now displaying results for cow. Happy Meat Farms - The meat that will make you happy", 32).screenCenter());
 	    }
 	}
